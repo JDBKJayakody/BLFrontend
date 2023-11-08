@@ -137,4 +137,4 @@ const AppFooter: React.FC = () => {
   );
 };
 
-export default AppFooter;
+export default AppFooter;
