@@ -139,4 +139,4 @@ const ContactPage = (props: any) => {
   );
 };
 
-export default ContactPage;
+export default ContactPage;
