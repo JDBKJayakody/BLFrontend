@@ -4,7 +4,7 @@ import { RootState } from "../store";
 export const userApi = createApi({
   reducerPath: "userApi",
   tagTypes: ["user"],
-  baseQuery: fetchBaseQuery({ baseUrl: "https://buddhikalight-backend.onrender.com/api" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://buddhika-light-backend.onrender.com/api" }),
   endpoints: (builder) => ({
     register: builder.mutation<boolean, RegisterRequest>({
       query: (data) => ({

@@ -4,7 +4,7 @@ import { Categories } from "../../componant/common/products";
 export const productApi = createApi({
   reducerPath: "product",
   tagTypes: ["product"],
-  baseQuery: fetchBaseQuery({ baseUrl: "https://buddhikalight-backend.onrender.com/api" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://buddhika-light-backend.onrender.com/api" }),
   endpoints: (builder) => ({
     getProducts: builder.query<ItemType[] | undefined, any>({
       query: () => ({

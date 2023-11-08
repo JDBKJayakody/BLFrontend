@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const orderApi = createApi({
   reducerPath: "orders",
   tagTypes: ["orders"],
-  baseQuery: fetchBaseQuery({ baseUrl: "https://buddhikalight-backend.onrender.com/api" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://buddhika-light-backend.onrender.com/api" }),
   endpoints: (builder) => ({
     getOrders: builder.query<OrderType[] | undefined, any>({
       query: () => ({
