@@ -20,9 +20,8 @@ const Dj = (props: any) => {
             
               <h1 style={{ fontSize: '30px', fontFamily: 'Courier New' }}>
               <b> Wedding, Party & Other Events Pro Sound System Pro Light System LED Video Wall.</b>
-                <br></br>
-                Contact:0766790396/0777874006
               </h1>
+              <h1> Contact:0766790396/0777874006</h1>
             
           </div>
         </Col>
