@@ -76,4 +76,4 @@ const AboutPage = (props: any) => {
   );
 };
 
-export default AboutPage;
+export default AboutPage;
