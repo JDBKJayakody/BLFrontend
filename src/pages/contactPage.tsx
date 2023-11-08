@@ -66,7 +66,7 @@ const ContactPage = (props: any) => {
      <Row style={{marginTop:'20px'}}>
      <Col xs={24} sm={12} md={6} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <div>
-      <img src="https://icon-library.com/images/mail-address-icon/mail-address-icon-4.jpg" alt="logo"  width={90} className="rounded-full" style={{ transition: 'transform 0.2s',marginLeft:'100px' }}
+      <img src="https://icon-library.com/images/mail-address-icon/mail-address-icon-4.jpg" alt="logo"  width={90} className="rounded-full" style={{ transition: 'transform 0.2s',marginLeft:'110px' }}
         onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(0.9)';}}
         onMouseLeave={(e) => {e.currentTarget.style.transform = 'scale(1)'; }} />
       <h1 style={{ fontSize: '20px',fontFamily: 'Courier New',marginLeft:'15px'}}>No:255,Buddhika Light (Pvt) Ltd</h1>
@@ -88,7 +88,7 @@ const ContactPage = (props: any) => {
       <img src="https://cdn141.picsart.com/304038526013211.png" alt="logo"  width={90} className="rounded-full" style={{ transition: 'transform 0.2s',marginLeft:'30px' }}
         onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(0.9)';}}
         onMouseLeave={(e) => {e.currentTarget.style.transform = 'scale(1)'; }} />
-      <h1 style={{ fontSize: '25px',fontFamily: 'Courier New'}}>Buddhika Light Pvt Ltd</h1>
+      <h1 style={{ fontSize: '18px',fontFamily: 'Courier New'}}>Buddhika Light Pvt Ltd</h1>
       <p style={{ fontSize: '18px',fontFamily: 'Courier New'}}><a href="https://www.facebook.com/buddhika.light">Facebook</a></p>
 
       </div>
@@ -96,7 +96,7 @@ const ContactPage = (props: any) => {
 
       <Col xs={24} sm={12} md={6} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <div>
-      <img src="https://webstockreview.net/images/contact-icon-png-1.png" alt="logo"  width={90}  style={{ transition: 'transform 0.2s',marginInlineStart:'60px' }}
+      <img src="https://webstockreview.net/images/contact-icon-png-1.png" alt="logo"  width={90}  style={{ transition: 'transform 0.2s',marginLeft:'60px' }}
         onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(0.9)';}}
         onMouseLeave={(e) => {e.currentTarget.style.transform = 'scale(1)'; }} />
       <h1 style={{ fontSize: '25px',fontFamily: 'Courier New'}}>077 999 2576 </h1>
