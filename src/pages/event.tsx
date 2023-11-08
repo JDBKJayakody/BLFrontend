@@ -16,15 +16,15 @@ const Event = (props: any) => {
      </Col>
      </Row>
      <Row style={{marginTop:'50px'}}>
-     <Col span={12} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-     <h1 style={{fontSize:'50px', fontFamily: 'Courier New'}}>Wedding decorations</h1>
+     <Col xs={24} sm={12} md={12} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+     <h1 style={{fontSize:'30px', fontFamily: 'Courier New'}}>Wedding decorations</h1>
      <img src="/temp/e2.png" alt="logo"  style={{ transition: 'transform 0.2s', width:'80%', height:'70%' }}
        onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(0.9)';}}
        onMouseLeave={(e) => {e.currentTarget.style.transform = 'scale(1)'; }} />
      </Col>
 
-    <Col span={12} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-    <h1 style={{fontSize:'50px', fontFamily: 'Courier New'}}>Musical shows</h1>
+    <Col xs={24} sm={12} md={12} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+    <h1 style={{fontSize:'30px', fontFamily: 'Courier New'}}>Musical shows</h1>
      <img src="/temp/e5.png" alt="logo"  style={{ transition: 'transform 0.2s', width:'80%', height:'70%' }}
        onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(0.9)';}}
        onMouseLeave={(e) => {e.currentTarget.style.transform = 'scale(1)'; }} />
@@ -34,16 +34,16 @@ const Event = (props: any) => {
     <Row>
 
     <Col span={24} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-    <h1 style={{fontSize:'50px', fontFamily: 'Courier New'}}>Art Festivals</h1>
+    <h1 style={{fontSize:'30px', fontFamily: 'Courier New'}}>Art Festivals</h1>
      <img src="/temp/e3.png" alt="logo"  style={{ transition: 'transform 0.2s', width:'100%', height:'70%' }}
        onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(0.9)';}}
        onMouseLeave={(e) => {e.currentTarget.style.transform = 'scale(1)'; }} />
     </Col>
     </Row>
-    <Row>
+    <Row style={{marginBottom:'25px'}}>
 
     <Col span={24} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-    <h1 style={{fontSize:'50px', fontFamily: 'Courier New'}}>Backdrop Design</h1>
+    <h1 style={{fontSize:'30px', fontFamily: 'Courier New'}}>Backdrop Design</h1>
      <img src="/temp/e4.png" alt="logo"  style={{ transition: 'transform 0.2s', width:'100%', height:'70%' }}
        onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(0.9)';}}
        onMouseLeave={(e) => {e.currentTarget.style.transform = 'scale(1)'; }} />
