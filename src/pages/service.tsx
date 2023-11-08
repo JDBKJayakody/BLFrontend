@@ -32,7 +32,7 @@ const Service = (props: any) => {
         <Row style={{ backgroundColor: '#dcdcdc' }}>
           <Col span={24} style={{ textAlign: 'center' }}>
             <div>
-              <b><h1 style={{ fontSize: '30px', fontFamily: 'Courier New', color: 'black',marginTop:"20px",marginBottom:'20px' }}>We bring the convenience to your doorstep.
+              <b><h1 style={{ fontSize: '30px', fontFamily: 'Courier New', color: 'black',marginTop:"20px",marginBottom:'20px', marginLeft:'15px', marginRight:'15px' }}>We bring the convenience to your doorstep.
                 Simply request our services, and we'll ensure that everything you need for your event from generators to lighting and more,
                 is delivered to your location.</h1></b>
             </div>
@@ -83,7 +83,7 @@ const Service = (props: any) => {
           <Col span={24} style={{ textAlign: 'center' }}>
             <div style={{ marginBottom: '50px' }}>
               <b><h1 style={{ fontSize: '50px', fontFamily: 'Courier New', color: 'black' }}>Dj Artist</h1></b>
-              <h1 style={{ fontSize: '18px', fontFamily: 'Courier New', marginLeft: '15px' }}>Enhance your event with the sounds of our talented DJ artist. You can elevate your experience by hiring our DJ artist , ensuring that your guests dance the night away to the hottest beats and tunes.</h1>
+              <h1 style={{ fontSize: '18px', fontFamily: 'Courier New', marginLeft: '15px', marginRight: '15px' }}>Enhance your event with the sounds of our talented DJ artist. You can elevate your experience by hiring our DJ artist , ensuring that your guests dance the night away to the hottest beats and tunes.</h1>
             </div>
           </Col>
         </Row>

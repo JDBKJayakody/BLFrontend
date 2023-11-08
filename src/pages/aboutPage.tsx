@@ -22,7 +22,7 @@ const AboutPage = (props: any) => {
        
         <Col xs={24} sm={18}>
         <b><h1 style={{ fontSize: '32px', fontFamily: 'Courier New',marginLeft:'25px' }}>About Us</h1></b>
-          <p style={{ fontSize: '18px', marginTop: '10px', fontFamily: 'Courier New', textAlign: 'justify',marginLeft:'20px' }}>
+          <p style={{ fontSize: '18px', marginTop: '10px', fontFamily: 'Courier New', textAlign: 'justify',marginLeft:'20px', marginRight:'20px' }}>
             Welcome to Buddhika Light Pvt Ltd, your trusted source for generator, lighting, and sound rental solutions. 
             Our passion is to transform ordinary gatherings into extraordinary spectacles which leave your guests in awe. 
             By delivering power, illumination, and audio excellence, we have been a leading partner in the industry within the past few years.
@@ -38,8 +38,8 @@ const AboutPage = (props: any) => {
       </Row>
       <Row style={{ marginTop: '60px' }}>
         <Col xs={24} sm={12} md={8}>
-          <b><h1 style={{ fontSize: '32px', fontFamily: 'Courier New', marginLeft:'40px' }}>Vision</h1></b>
-          <p style={{ fontSize: '18px', fontFamily: 'Courier New', textAlign: 'justify', marginLeft:'25px' }}>
+          <b><h1 style={{ fontSize: '32px', fontFamily: 'Courier New', marginLeft:'25px' }}>Vision</h1></b>
+          <p style={{ fontSize: '18px', fontFamily: 'Courier New', textAlign: 'justify', marginLeft:'20px', marginRight:'20px'  }}>
           "Empowering Creativity through Seamless Event Experiences" At Buddhika Light Pvt Ltd company, we envision Sri Lanka where every event,
            from intimate gatherings to grand productions, is brought to life with unmatched energy, precision, and artistry.
           </p>
@@ -48,8 +48,8 @@ const AboutPage = (props: any) => {
           <img src="/temp/b.png"/>
         </Col>
         <Col xs={24} sm={12} md={8}>
-          <b><h1 style={{ fontSize: '32px', fontFamily: 'Courier New' }}>Mission</h1></b>
-          <p style={{ fontSize: '18px', fontFamily: 'Courier New', textAlign: 'justify',marginRight:'25px' }}>
+          <b><h1 style={{ fontSize: '32px', fontFamily: 'Courier New', marginLeft:'25px' }}>Mission</h1></b>
+          <p style={{ fontSize: '18px', fontFamily: 'Courier New', textAlign: 'justify',marginRight:'20px', marginLeft:'20px' }}>
             Our mission is to be the cornerstone of exceptional event experiences. We are committed to providing seamless access to top-tier generators, lights,
             and sound equipment, enabling event organizers and artists to bring their creative visions to life.
           </p>
@@ -58,8 +58,8 @@ const AboutPage = (props: any) => {
      
       <Row style={{ marginBottom: '30px' ,marginTop:'50px'}}>
         <Col xs={24}>
-          <b><h1 style={{ fontSize: '32px', fontFamily: 'Courier New',marginLeft:'40px',fontStyle:'bolt' }}>Our History</h1></b>
-          <p style={{ fontSize: '18px', fontFamily: 'Courier New', textAlign: 'justify', marginLeft:'25px', marginRight:'25px' ,}}>
+          <b><h1 style={{ fontSize: '32px', fontFamily: 'Courier New',marginLeft:'25px',fontStyle:'bolt' }}>Our History</h1></b>
+          <p style={{ fontSize: '18px', fontFamily: 'Courier New', textAlign: 'justify', marginLeft:'20px', marginRight:'20px' ,}}>
             Inheriting a history of more than 15 years, "Buddhika Light" is moving forward to meet the ever-expanding market's needs and goals. It is my belief that we have protected the trust of our customers and the trust of all the employees who were members of the Prasara family to the best of our ability. My aim is to lead the institute forward by increasing the quality of the products through research studies using new technology. We invite you to keep the trust you have placed in us so far and continue to join hands with us.
           </p>
         </Col>

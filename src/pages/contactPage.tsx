@@ -88,8 +88,8 @@ const ContactPage = (props: any) => {
       <img src="https://cdn141.picsart.com/304038526013211.png" alt="logo"  width={90} className="rounded-full" style={{ transition: 'transform 0.2s',marginLeft:'30px' }}
         onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(0.9)';}}
         onMouseLeave={(e) => {e.currentTarget.style.transform = 'scale(1)'; }} />
-      <h1 style={{ fontSize: '25px',fontFamily: 'Courier New'}}>077 999 2576</h1>
-      <p style={{ fontSize: '18px',fontFamily: 'Courier New'}}><a href="https://www.facebook.com/buddhika.light">Face Book</a></p>
+      <h1 style={{ fontSize: '25px',fontFamily: 'Courier New'}}>Buddhika Light Pvt Ltd</h1>
+      <p style={{ fontSize: '18px',fontFamily: 'Courier New'}}><a href="https://www.facebook.com/buddhika.light">Facebook</a></p>
 
       </div>
       </Col>
