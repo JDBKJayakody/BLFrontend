@@ -59,7 +59,7 @@ const AddEditProduct = ({
             ]}
           />
         </Form.Item>
-        {!form.getFieldValue("_id") && (
+        {/* {!form.getFieldValue("_id") && (
           <Form.Item name="img" label="Image" rules={[{ required: true }]}>
             <Input
               type="file"
@@ -69,9 +69,20 @@ const AddEditProduct = ({
                   onImageChange(selectedFile);
                 }
               }}
-            />
-          </Form.Item>
-        )}
+            /> */}
+           <Form.Item name="img" label="Image" rules={[{ required: true }]}>
+  <Input
+    type="file"
+    onChange={(e) => {
+      const selectedFile = e.target.files?.[0]; // Use optional chaining
+      if (selectedFile) {
+        onImageChange(selectedFile); // Pass the selected file to your handler
+      }
+    }}
+  />
+</Form.Item>
+          
+        
       </Form>
     </Modal>
   );
