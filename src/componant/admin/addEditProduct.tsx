@@ -70,7 +70,7 @@ const AddEditProduct = ({
                 }
               }}
             /> */}
-           <Form.Item name="img" label="Image" rules={[{ required: true }]}>
+          <Form.Item name="img" label="Image" rules={[{ required: true }]}>
   <Input
     type="file"
     onChange={(e) => {
