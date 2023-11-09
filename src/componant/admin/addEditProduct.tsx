@@ -1,5 +1,4 @@
-// import { Form, FormInstance, Input, Modal, Select } from "antd";
-import { Form, FormInstance, Input, Modal, Select, Upload } from "antd";
+import { Form, FormInstance, Input, Modal, Select } from "antd";
 
 
 type Props = {
@@ -61,30 +60,17 @@ const AddEditProduct = ({
           />
         </Form.Item>
         {!form.getFieldValue("_id") && (
-          // <Form.Item name="img" label="Image" rules={[{ required: true }]}>
-          //   <Input
-          //     type="file"
-          //     onChange={(e) => {
-          //       const selectedFile = e.target.files?.[0];
-          //       if (selectedFile) {
-          //         onImageChange(selectedFile);
-          //       }
-          //     }}
-          //   />
-          // </Form.Item>
-
           <Form.Item name="img" label="Image" rules={[{ required: true }]}>
-  <Upload
-    showUploadList={false}
-    beforeUpload={(file) => {
-      onImageChange(file);
-      return false; // Prevent default file upload behavior
-    }}
-  >
-    <Input type="file" />
-  </Upload>
-</Form.Item>
-
+            <Input
+              type="file"
+              onChange={(e) => {
+                const selectedFile = e.target.files?.[0];
+                if (selectedFile) {
+                  onImageChange(selectedFile);
+                }
+              }}
+            />
+          </Form.Item>
         )}
       </Form>
     </Modal>
