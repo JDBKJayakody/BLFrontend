@@ -88,7 +88,7 @@ const ProductsGrid = ({ search, onEditClick, onDeleteClick }: Props) => {
                 <img
                   alt={record.name}
                   placeholder=""
-                  src={`http://localhost:3001/uploads/${record.image}`}
+                  src={`https://buddhika-light-backend.onrender.com/api${record.image}`}
                   onError={addImageFallback}
                   style={{ height: "30px", width: "100%" }}
                 />
