@@ -8,10 +8,10 @@ import Meta from "antd/es/card/Meta";
 import { useNavigate } from "react-router";
 
 export enum Categories {
-  Generators,
-  Screens,
-  Lights,
-  Sounds,
+  genareter,
+  screen,
+  lights,
+  sounds,
 }
 
 type Props = {
