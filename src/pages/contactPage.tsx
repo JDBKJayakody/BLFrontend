@@ -136,6 +136,8 @@ const ContactPage = (props: any) => {
      </Row>
      <AppFooter />
     </>
+
+    // ()
   );
 };
 
