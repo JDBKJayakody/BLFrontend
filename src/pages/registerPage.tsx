@@ -27,6 +27,7 @@ const RegisterPage = () => {
       <div className="flex items-center justify-center">
         <RegisterForm />
       </div>
+      
     </section>
   );
 };

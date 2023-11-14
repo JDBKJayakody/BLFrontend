@@ -1,5 +1,5 @@
+import React from "react";
 import { Form, FormInstance, Input, Modal, Select } from "antd";
-
 
 type Props = {
   isModalOpen: boolean;
@@ -18,10 +18,23 @@ const AddEditProduct = ({
   isEdit = false,
   onImageChange,
 }: Props) => {
+  const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedFile = e.target.files?.[0];
+    if (selectedFile) {
+      // Update the form field value with the concatenated path and file name
+      form.setFieldsValue({
+        img: `https://github.com/JDBKJayakody/BLFrontend/tree/main/public/temp/${selectedFile.name}`,
+      });
+
+      // Pass the selectedFile to the provided onImageChange prop
+      onImageChange(selectedFile);
+    }
+  };
+
   return (
     <Modal
       title={isEdit ? "Edit Product" : "Add Product"}
-      open={isModalOpen}
+      visible={isModalOpen}
       onOk={onOk}
       onCancel={() => setShowModal(false)}
       okType="default"
@@ -40,7 +53,11 @@ const AddEditProduct = ({
         <Form.Item name="price" label="Price" rules={[{ required: true }]}>
           <Input type="number" />
         </Form.Item>
-        <Form.Item name="quantity" label="Stock Quantity" rules={[{ required: true }]}>
+        <Form.Item
+          name="quantity"
+          label="Stock Quantity"
+          rules={[{ required: true }]}
+        >
           <Input type="number" />
         </Form.Item>
         <Form.Item
@@ -61,15 +78,7 @@ const AddEditProduct = ({
         </Form.Item>
         {!form.getFieldValue("_id") && (
           <Form.Item name="img" label="Image" rules={[{ required: true }]}>
-            <Input
-              type="file"
-              onChange={(e) => {
-                const selectedFile = e.target.files?.[0];
-                if (selectedFile) {
-                  onImageChange(selectedFile);
-                }
-              }}
-            />
+            <Input type="file" onChange={handleImageChange} />
           </Form.Item>
         )}
       </Form>
